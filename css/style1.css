@@ -1,0 +1,145 @@
+body {
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.page-content {
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+.profile-pic {
+	float: left;
+	width: 85px;
+	height: 85px;
+	background-image: url(../images/images_src/fixed/Udacity_Logo.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.profile-info {
+	margin-right: 5px;
+	color: #747704;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.profile-name {
+	margin: 0 auto 0;
+}
+
+.profile-role {
+	margin-top: 2px;
+}
+
+.page-header {
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.separator {
+	background-color: #747704;
+	height: 2px;
+	margin: auto 5px 25px;
+}
+
+.sub-heading-1 {
+	color: #bcbbbb;
+	margin-left: 15px;
+}
+
+.featured-work-title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #747704;
+	margin: 5px auto 5px;
+}
+
+.featured-work-link {
+	text-align: center;
+	font-size: 1em;
+	font-weight: 100;
+	color: #747704;
+	margin: 0 auto 5px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.main-body {
+	margin: 5px 5px;
+	overflow: hidden;
+}
+
+.featured-work {
+	width: 100%;
+}
+
+.featured-work-detail {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.work-item-background {
+	width: 256px;
+	height: 202px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+}
+
+.appify {
+	background-image: url(../images/sfo-300.jpg);
+}
+
+.sunflower {
+	background-image: url(../images/still_life-300.jpg);
+}
+
+.bokeh {
+	background-image: url(../images/rosella-300.jpg);
+}
+
+.featured-work-item {
+	margin: 5px;
+}
+
+@media screen and (min-width: 960px) {
+	.featured-work-detail {
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 760px) {
+	.work-item-background {
+		width: 300px;
+		height: 225px;
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 760px) {}
+
+@media screen and (max-width: 760px) {}
